@@ -13,7 +13,7 @@ import org.json.JSONObject;
 @Component
 public class WeatherApiClient {
 
-    private static final String API_KEY = "be15f3b3570b07a63433286f93894d81";
+    private static final String API_KEY = "565c4578af23da2bcc524507fe832187";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric";
 
     public String getWeather(String city) {
