@@ -44,7 +44,6 @@ public class TestTask {
             в строке 16 в классе WeatherApiClient.
             """);
 
-
         SpringApplication.run(TestTask.class, args);
     }
 }
